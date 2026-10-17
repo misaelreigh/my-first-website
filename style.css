@@ -1,16 +1,22 @@
 body {
-    background-color: #ffffff;
-    color: #243247;
+    background-color: #4f8488;
+    color: #000000;
     font-family: times new roman, serif;
     line-height: 1.6;
-    max-width: 600px;
+    max-width: 1080px;
     margin: 40px auto;
     padding: 0 20px;
 }
 h1 {
-    color: #174ea6;
-    font-size: 42px;  
-    margin: 0;
+    color: #000000;
+    font-size: 30px;  
+    padding: 0;
+}
+.intro{
+    font-size: 20px;
+    color: #0058ca;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 p {
     font-size: 18px;
@@ -24,10 +30,101 @@ h2 {
     margin-top: 32px;  
 }
 
+h3 {
+    font-size: 20px;
+    margin-top: 24px;  
+}
 a {
-    color: #70103d;
+    color: #e6dbe0;
     text-decoration: underline;
 }
 a:hover {
     color: #5713c4;
+}
+
+.page-header{
+    margin-bottom: 32px;
+    background-color: #ffffff;
+    color: #ffffff; 
+    border: 1px solid #0e8f0a;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d5dde6;
+    border-radius: 0;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+.card h2 {
+    margin-top: 0;
+    color: #174ea6;
+}
+.card h3 {
+    margin-top: 10px;
+    color: #174ea6;
+}
+.card p {
+    margin:auto;
+    color: #000000;
+}
+.card ul {
+    margin: 20px 0 0 20px;
+}
+.engineering-background {
+    background-color: #abbfd3;
+    border-color: #6d5fbd;
+    padding: 24px;
+}
+
+.resource-link{
+    display: inline-block;
+    background-color: #174ea6;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.resource-link:hover {
+    background-color: #0e8f0a;
+    color: #ffffff;
+}
+.resource-link:focus-visible {
+    outline: 3px solid #c90f8b;
+    outline-offset: 3px;
+}
+
+.page-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #526174;
+    margin-top: 32px;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill {
+    background-color: #eaf0f8;
+    border-radius: 8px;
+    padding: 16px;
+    flex: 1 1 160px;
+    min-width: 0;
+}
+.github {
+    background-color: #977bc0;
+}
+.skill h3 {
+    margin-top: 0;
+}
+
+.skill p {
+    margin-bottom: 0;
 }

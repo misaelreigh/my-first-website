@@ -3,16 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale=1.0">
-        <title>My First Website (practiice)</title>
+        <title>My First Website (practice)</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <header class="page-header">
         <h1>Hello, I'm Misael Reigh Miel V. Cabansag.</h1>
 
-        <p>
-            I'm an Electrical Engineer learning web developent.
+        <p class="intro">
+            Electrical Engineer exploring web development.
         </p>
-
+        </header>
+        
+        <main>
+            <section class="card">
         <h2>My learning goals</h2>
 
         <ul>
@@ -20,13 +25,18 @@
             <li>Learn to style a website</li>
             <li>Build my own projects</li>
         </ul>
+        </section>
 
+        <section class="card">
         <h2>About me</h2>
+        <p>I'm currently working at Tarlac State University as a Project/Design Engineer.</p>
+        </section> 
 
-        <p>Electrical Engineer with over 6 years of experience in electrical design, construction inspection, project monitoring, and cost estimation. Experienced in preparing electrical plans, cost estimates, and specifications. Skilled in coordinating with contractors and government agencies to ensure projects meet approved plans, specifications, and safety standards.</p>
-        
+        <section class="card engineering-background">
+        <h2>My Engineering Background</h2>
+        <p>I graduated with a degree in Electrical Engineering from Tarlac State University in 2019. I have experience in electrical design, project management, and construction supervision.
+            I'm an Electrical Engineer with over 6 years of experience in electrical design, construction inspection, project monitoring, and cost estimation. I have experience in preparing electrical plans, cost estimates, and specifications. I am skilled in coordinating with contractors and government agencies to ensure projects meet approved plans, specifications, and safety standards.</p>
         <h3>Professional Work Experience</h3>
-
         <p>
             Project Engineer | Tarlac State University - Facilities Development and Management Office | August 2020 - Present</p>
         <ul> 
@@ -38,8 +48,48 @@
             <li>Coordinate with BFP, OBO, and COA during inspections, compliance assessments, and project validation.</li>
             <li>Evaluate Variation Order requests, including revised costs, quantities, and detailed unit price analyses.</li>
         </ul>
-        <a href="https://developer.mozilla.org/en-US/Learn_web_development">
-            Learning website
+        </section>
+        <section class="card">
+        <h2>My learning resources</h2>
+        <p> I'm using MDN to learn the foundations  of web development.</p>
+        <a
+        class="resource-link" 
+        href="https://developer.mozilla.org/en-US/Learn_web_development">
+            Explore MDN
         </a>
+        </section>
+
+    <section class="card">
+
+        <div class="card">
+        <h2>Skills I'm developing</h2>
+
+            <div class="skills">
+                <div class="skill">
+                <h3>HTML</h3>
+                <p>Organizing webpage content.</p>
+                </div>
+
+                <div class="skill">
+                <h3>CSS</h3>
+                <p>Styling pages and creating layouts.</p>
+                 </div>
+
+                <div class="skill">
+                <h3>Problem-solving</h3>
+                <p>Finding errors and testing solutions.</p>
+                </div>
+                <div class="skill github">
+                <h3>GitHub</h3>
+                <p>Basic web development concepts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        </main>
+        
+        <footer class="page-footer">
+            <p>Built by Misael Reigh Miel V. Cabansag while learning HTML and CSS.</p>
+        </footer>
     </body>
 </html>
